@@ -1,0 +1,188 @@
+body {
+    background-color: #000000;
+}
+
+img {
+    max-width: 100%;
+}
+
+h2 {
+    color: white;
+}
+
+
+.header1 {
+    width: 100%;
+    height: 120vh;
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(img/arkaplan.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.headerHeight {
+    height: 70vh;
+}
+
+.inputGroupSize {
+    height: 8vh;
+
+}
+
+.btnİnput {
+    width: 30%;
+}
+
+.icerik img {
+    max-height: 120px;
+    margin-right: 2rem;
+
+}
+
+.accordion-body {
+
+    background-color: #2f2f2f;
+    color: white;
+}
+
+.accordion-button {
+    background-color: #2f2f2f;
+    color: white;
+}
+
+.accordion-item.show .accordion-button {
+    background-color: #2f2f2f;
+    color: #ffffff;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #3e3e3e;
+    color: #ffffff;
+}
+
+.accordion-button:focus {
+    border-color: none;
+}
+
+
+footer ul li {
+    list-style: none;
+    margin-top: 1rem;
+}
+
+.text-light-emphasis {
+    font-weight: bold;
+}
+
+
+
+
+
+/* profil sayfası içiçn olan kodlar*/
+.ProfilArka {
+    background-color: rgb(31, 31, 31);
+}
+
+.kutuArka {
+    background-color: #141414;
+}
+
+.btnProfil {
+    width: 50%;
+}
+
+
+
+
+
+
+/*giriş sayfası kodları*/
+
+.headerGiris {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(img/arkaplan.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.oturumAcma {
+    background-color: rgba(0, 0, 0, 0.700);
+    padding: 5rem;
+}
+
+.btnGiris {
+    padding-left: 9rem;
+    padding-right: 9rem;
+}
+
+.kucukYazilar {
+    text-align: center;
+    margin-top: 1rem;
+
+}
+
+
+
+/*filmler kodları*/
+
+.navbar1 {
+
+    background-color: black;
+    /* height: auto; */
+}
+
+.logoMenu {
+    height: 90px;
+}
+
+.header .menu ul li {
+    color: rgb(110, 106, 106);
+    margin-right: 2rem;
+    margin-top: 2rem;
+    list-style: none;
+    /*tıklanabilir yapmak için*/
+    cursor: pointer;
+}
+
+.profilButonu {
+    margin-right: 5rem;
+}
+
+.profilButonu .dropdown .boyut {
+    height: 60px;
+}
+
+.bilgi {
+    width: 100%;
+}
+
+
+
+
+
+/*hesap Sayfası İçin*/
+
+.headerHesap .menu ul li {
+    color: rgb(110, 106, 106);
+    margin-right: 2rem;
+    margin-top: 2rem;
+    list-style: none;
+    /*tıklanabilir yapmak için*/
+    cursor: pointer;
+}
+
+.HesapBilgi {
+    height: auto;
+    padding: 2rem;
+    background-color: rgb(251, 245, 200);
+
+}
+.HesapBilgi .bilgi .degistir p{
+    cursor: pointer;
+    color: rgb(56, 56, 243);
+}
+.header .menu ul li a{
+    text-decoration: none;
+    color: rgb(110, 106, 106);
+    
+}
